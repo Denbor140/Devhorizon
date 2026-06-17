@@ -3,8 +3,9 @@ import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 import tailwindcss from '@tailwindcss/vite';
 
-export default defineConfig(() => {
+export default defineConfig(({ command }) => {
   return {
+    base: command === 'build' ? '/Devhorizon/' : '/',
     root: 'src',
     build: {
       sourcemap: true,
