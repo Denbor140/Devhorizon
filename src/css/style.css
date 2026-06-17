@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap');
-
-@import 'normalize.css';
 @import 'tailwindcss';
 
-body {
-  font-family: 'JetBrains Mono', 'Space Grotesk', sans-serif;
-  color: #0f1c2c;
-  background-color: #11150b;
+@layer base {
+  @import 'normalize.css';
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
+:root {
+  --font-family: 'JetBrains Mono', sans-serif;
+  --second-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  font-family: var(--font-family), sans-serif;
+  color: #0f1c2c;
+  background-color: #11150b;
 }
 
 p:last-child {
@@ -37,7 +34,6 @@ a {
 
 button {
   cursor: pointer;
-  padding: 0;
 }
 
 img,
