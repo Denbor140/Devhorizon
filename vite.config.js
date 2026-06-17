@@ -7,6 +7,7 @@ export default defineConfig(({ command }) => {
   return {
     base: command === 'build' ? '/Devhorizon/' : '/',
     root: 'src',
+    publicDir: '../public',
     build: {
       sourcemap: true,
       outDir: '../dist',
