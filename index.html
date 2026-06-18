@@ -6,66 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>DEVHORIZON</title>
-    <script type="module" crossorigin src="/Devhorizon/assets/index-DsRIuVXS.js"></script>
-    <link rel="stylesheet" crossorigin href="/Devhorizon/assets/index-D2e8CiJU.css">
+    <script type="module" crossorigin src="/Devhorizon/assets/index-Dzk_4-EV.js"></script>
+    <link rel="stylesheet" crossorigin href="/Devhorizon/assets/index-5Oo1j8ih.css">
   </head>
   <body>
     <div id="app"></div>
-    <header class="mb-3 border border-solid border-[#424938]">
+    <header
+  class="sticky top-0 bg-[#11150b] py-4 mb-3 w-full border border-solid border-[#424938] z-100"
+>
   <div
-    class="container p-4 flex items-center justify-between max-w-full xl:px-12"
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
   >
-    <nav class="flex items-center justify-between w-full">
-      <a href="/" class="inline-block"
-        ><span
-          class="font-(family-name:--second-family) text-[#b4f663] text-[24px] font-semibold leading-[1.3] tracking-[-0.03em]"
-          >DEVHORIZON_26</span
-        ></a
+    <div class="flex items-center">
+      <nav class="flex items-center justify-between w-full">
+        <a href="/" class="inline-block"
+          ><span
+            class="font-(family-name:--second-family) text-[#b4f663] text-[24px] font-semibold leading-[1.3] tracking-[-0.03em]"
+            >DEVHORIZON_26</span
+          ></a
+        >
+        <ul class="hidden md:flex gap-4">
+          <li>
+            <a
+              href="/"
+              class="block pt-1 pb-1 pl-3 pr-3 leading-[1.2] text-[12px] tracking-widest font-bold text-[#b4f663] border hover:bg-[#32362b] transition-colors duration-300"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#shedule"
+              class="block pt-1 pb-1 pl-3 pr-3 leading-[1.2] text-[12px] tracking-widest font-bold text-[#e1e4d4] hover:text-[#b4f663] hover:bg-[#32362b] transition-colors duration-300"
+            >
+              Schedule
+            </a>
+          </li>
+          <li>
+            <a
+              href="#speakers"
+              class="block pt-1 pb-1 pl-3 pr-3 leading-[1.2] text-[12px] tracking-widest font-bold text-[#e1e4d4] hover:text-[#b4f663] hover:bg-[#32362b] transition-colors duration-300"
+              >Speakers
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        class="inline-flex w-[34px] h-[34px] items-center justify-center md:hidden"
       >
-      <ul class="hidden md:flex gap-4">
-        <li class="pt-1 pb-1 pl-3 pr-3">
-          <a href="/">
-            <span class="text-[#e1e4d4] leading-normal text-[12px] font-normal"
-              >Home</span
-            >
-          </a>
-        </li>
-        <li class="pt-1 pb-1 pl-3 pr-3">
-          <a href="">
-            <span class="text-[#e1e4d4] leading-normal text-[12px] font-normal"
-              >Schedule</span
-            >
-          </a>
-        </li>
-        <li class="pt-1 pb-1 pl-3 pr-3">
-          <a href="">
-            <span class="text-[#e1e4d4] leading-normal text-[12px] font-normal"
-              >Speakers</span
-            >
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <button
-      class="inline-flex w-[34px] h-[34px] items-center justify-center md:hidden"
-    >
-      <svg class="fill-[#b4f663]" width="18" height="12">
-        <use href="/Devhorizon/img/icons.svg#icon-menu"></use>
-      </svg>
-    </button>
+        <svg class="fill-[#b4f663]" width="18" height="12">
+          <use href="/Devhorizon/img/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </header>
 
 
     <main>
-      <section class="border-b border-solid border-[#424938]">
-  <div class="container max-w-full px-4 py-12 xl:px-12 xl:py-20">
+      <section class="py-12 border-b border-solid border-[#424938] xl:py-20">
+  <div
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
+  >
     <div
-      class="p-8 border border-solid border-[#424938] bg-[#0c0f07] flex flex-col gap-12 min-[1440px]:p-12"
+      class="p-8 border border-solid border-[#424938] bg-[#0c0f07] flex flex-col gap-12 xl:p-12"
     >
       <h1
-        class="font-(family-name:--second-family) text-[#e1e4d4] text-[32px] font-bold leading-[1.2] min-[1440px]:text-[72px] max-w-175"
+        class="font-(family-name:--second-family) text-[#e1e4d4] text-[32px] font-bold leading-[1.2] max-w-175 xl:text-[72px]"
       >
         WHERE CODE MEETS THE MACHINE_
       </h1>
@@ -88,19 +95,21 @@
   </div>
 </section>
 
-      <section class="border-b border-solid border-[#424938] py-12">
-  <div class="container max-w-full px-4 xl:px-12">
+      <section class="border-b border-solid border-[#424938] py-12 xl:py-20">
+  <div
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
+  >
     <div class="md:flex flex-row-reverse">
       <div class="border border-[#424938] w-full">
         <img src="/Devhorizon/img/Elena-Vasquez-keynote.png" alt="Elena-Vasquez" />
       </div>
       <div class="bg-[#d6e4f9] p-8 w-full flex flex-col justify-center">
         <span
-          class="block font-bold text-[12px] text-[#0f1c2c] leading-[1.2] tracking-[0.2em] mb-4"
+          class="block font-bold text-[12px] text-[#0f1c2c] leading-[1.2] tracking-[0.2em] mb-4 opacity-[0.7]"
           >// FEATURED KEYNOTE</span
         >
         <h2
-          class="font-(family-name:--second-family) font-bold text-[32px] text-[#0f1c2c] leading-[1.2] mb-2"
+          class="font-(family-name:--second-family) font-bold text-[32px] text-[#0f1c2c] leading-[1.2] mb-2 xl:text-[48px]"
         >
           elena vasquez
         </h2>
@@ -121,13 +130,17 @@
         </p>
         <button
           type="button"
-          class="inline-flex items-center gap-2 border border-[#0f1c2c] px-6 py-3 self-start"
+          class="group inline-flex items-center gap-2 border border-[#0f1c2c] px-6 py-3 self-start transition-colors duration-300 hover:bg-[#0f1c2c] hover:opacity-[1]"
         >
           <span
-            class="font-bold text-[12px] text-[#0f1c2c] leading-[1.2] tracking-widest"
+            class="font-bold text-[12px] text-[#0f1c2c] leading-[1.2] tracking-widest group-hover:text-[#d6e4f9]"
             >VIEW TALK</span
           >
-          <svg width="16" height="16" class="fill-[#0f1c2c]">
+          <svg
+            width="16"
+            height="16"
+            class="fill-[#0f1c2c] transition-transform duration-300 group-hover:translate-x-1 group-hover:fill-[#d6e4f9]"
+          >
             <use href="/Devhorizon/img/icons.svg#icon-right"></use>
           </svg>
         </button>
@@ -137,7 +150,9 @@
 </section>
 
       <section class="py-20 md:py-16 xl:py-20">
-  <div class="container max-w-full px-4 xl:px-12">
+  <div
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
+  >
     <p
       class="font-bold text-[12px] text-[#b4f663] leading-[1.2] tracking-[0.2em] mb-12"
     >
@@ -146,7 +161,7 @@
 
     <ul class="flex flex-col gap-6 md:flex-row md:flex-wrap md:gap-4 xl:gap-6">
       <li
-        class="border border-[#424938] p-8 w-full md:w-[calc((100%-16px)/2)] xl:w-[calc((100%-72px)/4)]"
+        class="border border-[#424938] p-8 w-full md:w-[calc((100%-16px)/2)] xl:w-[calc((100%-72px)/4)] transition-colors duration-300 hover:border-[#b4f663] group"
       >
         <h2
           class="font-(family-name:--second-family) font-semibold text-[24px] text-[#b4f663] leading-[1.3] mb-2"
@@ -157,13 +172,13 @@
           BUILDING MODERN INTERFACES FOR THE WEB
         </p>
         <p
-          class="font-bold text-[12px] text-[#8c947f] leading-[1.2] tracking-widest"
+          class="font-bold text-[12px] text-[#8c947f] leading-[1.2] tracking-widest transition-colors duration-300 group-hover:text-[#b4f663]"
         >
           TRACK_01
         </p>
       </li>
       <li
-        class="border border-[#424938] p-8 w-full md:w-[calc((100%-16px)/2)] xl:w-[calc((100%-72px)/4)]"
+        class="border border-[#424938] p-8 w-full md:w-[calc((100%-16px)/2)] xl:w-[calc((100%-72px)/4)] transition-colors duration-300 hover:border-[#b4f663] group"
       >
         <h2
           class="font-(family-name:--second-family) font-semibold text-[24px] text-[#b4f663] leading-[1.3] mb-2"
@@ -174,13 +189,13 @@
           MAKE EVERY MILLISECOND COUNT
         </p>
         <p
-          class="font-bold text-[12px] text-[#8c947f] leading-[1.2] tracking-widest"
+          class="font-bold text-[12px] text-[#8c947f] leading-[1.2] tracking-widest transition-colors duration-300 group-hover:text-[#b4f663]"
         >
           TRACK_02
         </p>
       </li>
       <li
-        class="border border-[#424938] p-8 w-full md:w-[calc((100%-16px)/2)] xl:w-[calc((100%-72px)/4)]"
+        class="border border-[#424938] p-8 w-full md:w-[calc((100%-16px)/2)] xl:w-[calc((100%-72px)/4)] transition-colors duration-300 hover:border-[#b4f663] group"
       >
         <h2
           class="font-(family-name:--second-family) font-semibold text-[24px] text-[#b4f663] leading-[1.3] mb-2"
@@ -191,13 +206,13 @@
           BUILDING INCLUSIVE EXPERIENCES FOR EVERYONE
         </p>
         <p
-          class="font-bold text-[12px] text-[#8c947f] leading-[1.2] tracking-widest"
+          class="font-bold text-[12px] text-[#8c947f] leading-[1.2] tracking-widest transition-colors duration-300 group-hover:text-[#b4f663]"
         >
           TRACK_03
         </p>
       </li>
       <li
-        class="border border-[#424938] p-8 w-full md:w-[calc((100%-16px)/2)] xl:w-[calc((100%-72px)/4)]"
+        class="border border-[#424938] p-8 w-full md:w-[calc((100%-16px)/2)] xl:w-[calc((100%-72px)/4)] transition-colors duration-300 hover:border-[#b4f663] group"
       >
         <h2
           class="font-(family-name:--second-family) font-semibold text-[24px] text-[#b4f663] leading-[1.3] mb-2"
@@ -208,7 +223,7 @@
           LEVEL UP YOUR DEVELOPER WORKFLOW
         </p>
         <p
-          class="font-bold text-[12px] text-[#8c947f] leading-[1.2] tracking-widest"
+          class="font-bold text-[12px] text-[#8c947f] leading-[1.2] tracking-widest transition-colors duration-300 group-hover:text-[#b4f663]"
         >
           TRACK_04
         </p>
@@ -217,9 +232,14 @@
   </div>
 </section>
 
-      <section class="border-t border-[#424938] py-20 md:py-16 xl:py-20">
-  <div class="container max-w-full px-4 xl:px-12">
-    <div class="flex flex-col gap-12 items-center">
+      <section
+  id="speakers"
+  class="border-t border-[#424938] py-20 md:py-16 xl:py-20"
+>
+  <div
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
+  >
+    <div class="flex flex-col gap-12">
       <p
         class="font-bold text-[12px] text-[#b4f663] leading-[1.2] tracking-[0.2em]"
       >
@@ -229,7 +249,7 @@
         class="flex flex-col gap-6 md:flex-row md:flex-wrap xl:justify-center"
       >
         <li
-          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px]"
+          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px] transition-colors duration-300 hover:border-[#b4f663]"
         >
           <img
             src="/Devhorizon/img/Elena-Vasquez.png"
@@ -253,7 +273,7 @@
           </div>
         </li>
         <li
-          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px]"
+          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px] transition-colors duration-300 hover:border-[#b4f663]"
         >
           <img src="/Devhorizon/img/Naomi-Tanaka.png" alt="Naomi-Tanaka" class="w-full" />
           <div class="p-4">
@@ -273,7 +293,7 @@
           </div>
         </li>
         <li
-          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px]"
+          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px] transition-colors duration-300 hover:border-[#b4f663]"
         >
           <img
             src="/Devhorizon/img/James-Okonkwo.png"
@@ -297,7 +317,7 @@
           </div>
         </li>
         <li
-          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px]"
+          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px] transition-colors duration-300 hover:border-[#b4f663]"
         >
           <img
             src="/Devhorizon/img/Sarah-Lindström.png"
@@ -321,7 +341,7 @@
           </div>
         </li>
         <li
-          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px]"
+          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px] transition-colors duration-300 hover:border-[#b4f663]"
         >
           <img src="/Devhorizon/img/Priya-Sharma.png" alt="Priya-Sharma" class="w-full" />
           <div class="p-4">
@@ -341,7 +361,7 @@
           </div>
         </li>
         <li
-          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px]"
+          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px] transition-colors duration-300 hover:border-[#b4f663]"
         >
           <img src="/Devhorizon/img/Lucas-Moreau.png" alt="Lucas-Moreau" class="w-full" />
           <div class="p-4">
@@ -361,7 +381,7 @@
           </div>
         </li>
         <li
-          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px]"
+          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px] transition-colors duration-300 hover:border-[#b4f663]"
         >
           <img src="/Devhorizon/img/Ryan-O'Sullivan.png" alt="Ryan-O" class="w-full" />
           <div class="p-4">
@@ -381,7 +401,7 @@
           </div>
         </li>
         <li
-          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px]"
+          class="border border-[#424938] bg-[#1d2117] md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-24px)/4)] xl:max-w-[278px] transition-colors duration-300 hover:border-[#b4f663]"
         >
           <img src="/Devhorizon/img/Tom-Kowalski.png" alt="Tom-Kowalski" class="w-full" />
           <div class="p-4">
@@ -401,9 +421,12 @@
           </div>
         </li>
       </ul>
-      <button type="button" class="border border-[#b4f663] py-3 px-12">
+      <button
+        type="button"
+        class="border border-[#b4f663] py-3 px-12 self-center transition-colors duration-300 hover:bg-[#b4f663] group"
+      >
         <span
-          class="font-bold text-[12px] text-[#b4f663] leading-[1.2] tracking-widest"
+          class="font-bold text-[12px] text-[#b4f663] leading-[1.2] tracking-widest transition-colors duration-300 group-hover:text-[#102000]"
           >VIEW ALL SPEAKERS</span
         >
       </button>
@@ -411,8 +434,13 @@
   </div>
 </section>
 
-      <section class="border-t border-[#424938] bg-[#191d13] py-20 md:py-16 xl:py-20">
-  <div class="container max-w-full px-4 xl:px-12">
+      <section
+  id="shedule"
+  class="border-t border-[#424938] bg-[#191d13] py-20 md:py-16 xl:py-20"
+>
+  <div
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
+  >
     <div class="flex flex-col gap-12">
       <p
         class="font-bold text-[12px] text-[#b4f663] leading-[1.2] tracking-[0.2em]"
@@ -432,26 +460,31 @@
           </div>
           <div class="p-8">
             <h2
-              class="font-(family-name:--second-family) font-semibold text-[24px] leading-[1.3] text-[#e1e4d4] mb-2 md:uppercase md:text-[20px]"
+              class="font-(family-name:--second-family) font-semibold text-[24px] leading-[1.3] text-[#e1e4d4] mb-2 md:uppercase"
             >
               video compression for the web: the middle-out approach
             </h2>
             <p
-              class="font-bold text-[12px] leading-[1.2] tracking-widest text-[#c2c9b3] mb-2 md:text-[10px]"
+              class="font-bold text-[12px] leading-[1.2] tracking-widest text-[#c2c9b3] mb-2"
             >
               DINESH CHUGTAI // PIED PIPER
             </p>
-            <button type="button" class="inline-flex gap-1 pt-2">
-              <svg width="9" height="9" class="fill-[#8c947f]">
+            <button type="button" class="inline-flex gap-1 pt-2 group">
+              <svg
+                width="9"
+                height="9"
+                class="fill-[#8c947f] transition-colors duration-300 group-hover:fill-[#b4f663]"
+              >
                 <use href="/Devhorizon/img/icons.svg#icon-plus"></use>
               </svg>
-              <span class="text-[10px] leading-normal text-[#8c947f]"
+              <span
+                class="text-[10px] leading-normal text-[#8c947f] transition-colors duration-300 group-hover:text-[#b4f663]"
                 >SHOW DETAILS</span
               >
             </button>
           </div>
           <div
-            class="border-t border-dashed border-[#424938] p-8 xl:ml-auto xl:border-l"
+            class="border-t border-dashed border-[#424938] p-8 xl:ml-auto xl:border-l xl:border-t-0"
           >
             <p
               class="font-semibold text-[24px] leading-none text-center text-[#e1e4d4]"
@@ -461,7 +494,9 @@
             <p class="text-[10px] leading-normal text-center text-[#8c947f]">
               12:00
             </p>
-            <span></span>
+            <p
+              class="w-full h-8 my-4 bg-[repeating-linear-gradient(90deg,#E1E4D4,#E1E4D4_2px,transparent_2px,transparent_4px)]"
+            ></p>
             <p class="text-[10px] leading-normal text-[#e1e4d4] text-center">
               DAY 1
             </p>
@@ -479,26 +514,31 @@
           </div>
           <div class="p-8">
             <h2
-              class="font-(family-name:--second-family) font-semibold text-[24px] leading-[1.3] text-[#e1e4d4] mb-2 md:uppercase md:text-[20px]"
+              class="font-(family-name:--second-family) font-semibold text-[24px] leading-[1.3] text-[#e1e4d4] mb-2 md:uppercase"
             >
               css container queries in production
             </h2>
             <p
-              class="font-bold text-[12px] leading-[1.2] tracking-widest text-[#c2c9b3] mb-2 md:text-[10px]"
+              class="font-bold text-[12px] leading-[1.2] tracking-widest text-[#c2c9b3] mb-2"
             >
               MEI-LIN ZHANG // ROAMLY
             </p>
-            <button type="button" class="inline-flex gap-1 pt-2">
-              <svg width="9" height="9" class="fill-[#8c947f]">
+            <button type="button" class="inline-flex gap-1 pt-2 group">
+              <svg
+                width="9"
+                height="9"
+                class="fill-[#8c947f] transition-colors duration-300 group-hover:fill-[#b4f663]"
+              >
                 <use href="/Devhorizon/img/icons.svg#icon-plus"></use>
               </svg>
-              <span class="text-[10px] leading-normal text-[#8c947f]"
+              <span
+                class="text-[10px] leading-normal text-[#8c947f] transition-colors duration-300 group-hover:text-[#b4f663]"
                 >SHOW DETAILS</span
               >
             </button>
           </div>
           <div
-            class="border-t border-dashed border-[#424938] p-8 xl:ml-auto xl:border-l"
+            class="border-t border-dashed border-[#424938] p-8 xl:ml-auto xl:border-l xl:border-t-0"
           >
             <p
               class="font-semibold text-[24px] leading-none text-center text-[#e1e4d4]"
@@ -508,7 +548,9 @@
             <p class="text-[10px] leading-normal text-center text-[#8c947f]">
               14:00
             </p>
-            <span></span>
+            <p
+              class="w-full h-8 my-4 bg-[repeating-linear-gradient(90deg,#E1E4D4,#E1E4D4_2px,transparent_2px,transparent_4px)]"
+            ></p>
             <p class="text-[10px] leading-normal text-[#e1e4d4] text-center">
               DAY 1
             </p>
@@ -517,10 +559,10 @@
       </ul>
       <button
         type="button"
-        class="border border-[#8c947f] py-3 px-12 self-center"
+        class="border border-[#8c947f] py-3 px-12 self-center transition-colors duration-300 hover:border-[#b4f663] group"
       >
         <span
-          class="font-bold text-[12px] leading-[1.2] tracking-widest text-[#e1e4d4]"
+          class="font-bold text-[12px] leading-[1.2] tracking-widest text-[#e1e4d4] transition-colors duration-300 group-hover:text-[#b4f663]"
           >VIEW FULL SCHEDULE</span
         >
       </button>
@@ -531,7 +573,9 @@
     </main>
 
     <footer class="border-t border-[#424938] py-20 md:py-16 xl:py-20">
-  <div class="container max-w-full px-4 xl:px-12">
+  <div
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
+  >
     <div class="flex flex-col gap-6 md:flex-wrap md:flex-row">
       <div class="md:w-[calc((100%-24px)/2)] xl:w-[calc((100%-72px)/4)]">
         <a href="/" class="inline-block mb-6"
@@ -554,27 +598,25 @@
         </p>
         <ul class="flex flex-col gap-3">
           <li>
-            <a href="/"
-              ><span
-                class="text-[#e1e4d4] leading-normal text-[16px] font-normal"
-                >Home</span
-              ></a
+            <a
+              href="/"
+              class="text-[#e1e4d4] leading-normal text-[16px] font-normal transition-colors duration-300 hover:text-[#b4f663]"
+              >Home</a
             >
           </li>
           <li>
-            <a href=""
-              ><span
-                class="text-[#e1e4d4] leading-normal text-[16px] font-normal"
-                >Schedul</span
-              >e</a
+            <a
+              href=""
+              class="text-[#e1e4d4] leading-normal text-[16px] font-normal transition-colors duration-300 hover:text-[#b4f663]"
+              >Schedul</a
             >
           </li>
           <li>
-            <a href=""
-              ><span
-                class="text-[#e1e4d4] leading-normal text-[16px] font-normal"
-                >Speakers</span
-              ></a
+            <a
+              href=""
+              class="text-[#e1e4d4] leading-normal text-[16px] font-normal transition-colors duration-300 hover:text-[#b4f663]"
+            >
+              Speakers</a
             >
           </li>
         </ul>
@@ -587,18 +629,30 @@
           // TRACKS
         </p>
         <ul class="flex flex-col gap-3">
-          <li class="text-[#e1e4d4] leading-normal text-[16px] font-normal">
+          <a
+            href=""
+            class="text-[#e1e4d4] leading-normal text-[16px] font-normal transition-colors duration-300 hover:text-[#b4f663]"
+          >
             Frontend
-          </li>
-          <li class="text-[#e1e4d4] leading-normal text-[16px] font-normal">
+          </a>
+          <a
+            href=""
+            class="text-[#e1e4d4] leading-normal text-[16px] font-normal transition-colors duration-300 hover:text-[#b4f663]"
+          >
             Performance
-          </li>
-          <li class="text-[#e1e4d4] leading-normal text-[16px] font-normal">
+          </a>
+          <a
+            href=""
+            class="text-[#e1e4d4] leading-normal text-[16px] font-normal transition-colors duration-300 hover:text-[#b4f663]"
+          >
             Accessibility
-          </li>
-          <li class="text-[#e1e4d4] leading-normal text-[16px] font-normal">
+          </a>
+          <a
+            href=""
+            class="text-[#e1e4d4] leading-normal text-[16px] font-normal transition-colors duration-300 hover:text-[#b4f663]"
+          >
             Tooling
-          </li>
+          </a>
         </ul>
       </div>
 
@@ -619,16 +673,23 @@
 </footer>
 
     <div class="border-t border-[rgba(66, 73, 56, 0.3)] py-8">
-  <div class="container max-w-full px-4 xl:px-12">
-    <div class="flex flex-col items-center">
+  <div
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
+  >
+    <div class="flex flex-col items-center gap-5">
       <p class="text-[10px] leading-normal text-[#c2c9b3] text-center">
         © 2026 DEVHORIZON. ALL RIGHTS RESERVED.
       </p>
-      <button type="button" class="inline-flex items-center gap-1">
-        <span class="text-[10px] leading-normal tracking-widest text-[#8c947f]"
+      <button type="button" class="inline-flex items-center gap-1 group">
+        <span
+          class="text-[10px] leading-normal tracking-widest text-[#8c947f] transition-colors duration-300 group-hover:text-[#b4f663]"
           >BACK TO TOP</span
         >
-        <svg width="10" height="10" class="fill-[#8c947f]">
+        <svg
+          width="10"
+          height="10"
+          class="fill-[#8c947f] transition-colors duration-300 group-hover:fill-[#b4f663]"
+        >
           <use href="/Devhorizon/img/icons.svg#icon-top"></use>
         </svg>
       </button>
