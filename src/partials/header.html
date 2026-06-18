@@ -1,45 +1,50 @@
-<header class="mb-3 border border-solid border-[#424938]">
+<header
+  class="sticky top-0 bg-[#11150b] py-4 mb-3 w-full border border-solid border-[#424938] z-100"
+>
   <div
-    class="container p-4 flex items-center justify-between max-w-full xl:px-12"
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
   >
-    <nav class="flex items-center justify-between w-full">
-      <a href="/" class="inline-block"
-        ><span
-          class="font-(family-name:--second-family) text-[#b4f663] text-[24px] font-semibold leading-[1.3] tracking-[-0.03em]"
-          >DEVHORIZON_26</span
-        ></a
+    <div class="flex items-center">
+      <nav class="flex items-center justify-between w-full">
+        <a href="/" class="inline-block"
+          ><span
+            class="font-(family-name:--second-family) text-[#b4f663] text-[24px] font-semibold leading-[1.3] tracking-[-0.03em]"
+            >DEVHORIZON_26</span
+          ></a
+        >
+        <ul class="hidden md:flex gap-4">
+          <li>
+            <a
+              href="/"
+              class="block pt-1 pb-1 pl-3 pr-3 leading-[1.2] text-[12px] tracking-widest font-bold text-[#b4f663] border hover:bg-[#32362b] transition-colors duration-300"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#shedule"
+              class="block pt-1 pb-1 pl-3 pr-3 leading-[1.2] text-[12px] tracking-widest font-bold text-[#e1e4d4] hover:text-[#b4f663] hover:bg-[#32362b] transition-colors duration-300"
+            >
+              Schedule
+            </a>
+          </li>
+          <li>
+            <a
+              href="#speakers"
+              class="block pt-1 pb-1 pl-3 pr-3 leading-[1.2] text-[12px] tracking-widest font-bold text-[#e1e4d4] hover:text-[#b4f663] hover:bg-[#32362b] transition-colors duration-300"
+              >Speakers
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        class="inline-flex w-[34px] h-[34px] items-center justify-center md:hidden"
       >
-      <ul class="hidden md:flex gap-4">
-        <li class="pt-1 pb-1 pl-3 pr-3">
-          <a href="/">
-            <span class="text-[#e1e4d4] leading-normal text-[12px] font-normal"
-              >Home</span
-            >
-          </a>
-        </li>
-        <li class="pt-1 pb-1 pl-3 pr-3">
-          <a href="">
-            <span class="text-[#e1e4d4] leading-normal text-[12px] font-normal"
-              >Schedule</span
-            >
-          </a>
-        </li>
-        <li class="pt-1 pb-1 pl-3 pr-3">
-          <a href="">
-            <span class="text-[#e1e4d4] leading-normal text-[12px] font-normal"
-              >Speakers</span
-            >
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <button
-      class="inline-flex w-[34px] h-[34px] items-center justify-center md:hidden"
-    >
-      <svg class="fill-[#b4f663]" width="18" height="12">
-        <use href="/img/icons.svg#icon-menu"></use>
-      </svg>
-    </button>
+        <svg class="fill-[#b4f663]" width="18" height="12">
+          <use href="/img/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </header>

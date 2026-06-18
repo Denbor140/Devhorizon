@@ -1,16 +1,18 @@
-<section class="border-b border-solid border-[#424938] py-12">
-  <div class="container max-w-full px-4 xl:px-12">
+<section class="border-b border-solid border-[#424938] py-12 xl:py-20">
+  <div
+    class="container max-w-[375px] mx-auto px-4 md:max-w-[768px] xl:max-w-[1440px] xl:px-12"
+  >
     <div class="md:flex flex-row-reverse">
       <div class="border border-[#424938] w-full">
         <img src="/img/Elena-Vasquez-keynote.png" alt="Elena-Vasquez" />
       </div>
       <div class="bg-[#d6e4f9] p-8 w-full flex flex-col justify-center">
         <span
-          class="block font-bold text-[12px] text-[#0f1c2c] leading-[1.2] tracking-[0.2em] mb-4"
+          class="block font-bold text-[12px] text-[#0f1c2c] leading-[1.2] tracking-[0.2em] mb-4 opacity-[0.7]"
           >// FEATURED KEYNOTE</span
         >
         <h2
-          class="font-(family-name:--second-family) font-bold text-[32px] text-[#0f1c2c] leading-[1.2] mb-2"
+          class="font-(family-name:--second-family) font-bold text-[32px] text-[#0f1c2c] leading-[1.2] mb-2 xl:text-[48px]"
         >
           elena vasquez
         </h2>
@@ -31,13 +33,17 @@
         </p>
         <button
           type="button"
-          class="inline-flex items-center gap-2 border border-[#0f1c2c] px-6 py-3 self-start"
+          class="group inline-flex items-center gap-2 border border-[#0f1c2c] px-6 py-3 self-start transition-colors duration-300 hover:bg-[#0f1c2c] hover:opacity-[1]"
         >
           <span
-            class="font-bold text-[12px] text-[#0f1c2c] leading-[1.2] tracking-widest"
+            class="font-bold text-[12px] text-[#0f1c2c] leading-[1.2] tracking-widest group-hover:text-[#d6e4f9]"
             >VIEW TALK</span
           >
-          <svg width="16" height="16" class="fill-[#0f1c2c]">
+          <svg
+            width="16"
+            height="16"
+            class="fill-[#0f1c2c] transition-transform duration-300 group-hover:translate-x-1 group-hover:fill-[#d6e4f9]"
+          >
             <use href="/img/icons.svg#icon-right"></use>
           </svg>
         </button>
