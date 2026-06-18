@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>DEVHORIZON</title>
-    <script type="module" crossorigin src="/Devhorizon/assets/index-Dzk_4-EV.js"></script>
-    <link rel="stylesheet" crossorigin href="/Devhorizon/assets/index-5Oo1j8ih.css">
+    <script type="module" crossorigin src="/Devhorizon/assets/index-BwoeEJVT.js"></script>
+    <link rel="stylesheet" crossorigin href="/Devhorizon/assets/index-2llW4gN-.css">
   </head>
   <body>
     <div id="app"></div>
@@ -52,10 +52,19 @@
         </ul>
       </nav>
       <button
+        id="menuBtn"
         class="inline-flex w-[34px] h-[34px] items-center justify-center md:hidden"
       >
-        <svg class="fill-[#b4f663]" width="18" height="12">
+        <svg id="iconBurger" class="fill-[#b4f663]" width="18" height="12">
           <use href="/Devhorizon/img/icons.svg#icon-menu"></use>
+        </svg>
+        <svg
+          id="iconCLose"
+          class="fill-[#b4f663] w-full hidden"
+          width="18"
+          height="12"
+        >
+          <use href="/Devhorizon/img/icons.svg#icon-close"></use>
         </svg>
       </button>
     </div>
@@ -423,7 +432,7 @@
       </ul>
       <button
         type="button"
-        class="border border-[#b4f663] py-3 px-12 self-center transition-colors duration-300 hover:bg-[#b4f663] group"
+        class="border border-[#b4f663] py-3 px-12 self-center transition-all duration-300 hover:bg-[#b4f663] active:scale-95 group"
       >
         <span
           class="font-bold text-[12px] text-[#b4f663] leading-[1.2] tracking-widest transition-colors duration-300 group-hover:text-[#102000]"
@@ -559,7 +568,7 @@
       </ul>
       <button
         type="button"
-        class="border border-[#8c947f] py-3 px-12 self-center transition-colors duration-300 hover:border-[#b4f663] group"
+        class="border border-[#8c947f] py-3 px-12 self-center transition-all duration-300 hover:border-[#b4f663] active:scale-95 group"
       >
         <span
           class="font-bold text-[12px] leading-[1.2] tracking-widest text-[#e1e4d4] transition-colors duration-300 group-hover:text-[#b4f663]"
@@ -680,7 +689,11 @@
       <p class="text-[10px] leading-normal text-[#c2c9b3] text-center">
         © 2026 DEVHORIZON. ALL RIGHTS RESERVED.
       </p>
-      <button type="button" class="inline-flex items-center gap-1 group">
+      <button
+        id="topBtn"
+        type="button"
+        class="inline-flex items-center gap-1 group"
+      >
         <span
           class="text-[10px] leading-normal tracking-widest text-[#8c947f] transition-colors duration-300 group-hover:text-[#b4f663]"
           >BACK TO TOP</span
@@ -693,6 +706,43 @@
           <use href="/Devhorizon/img/icons.svg#icon-top"></use>
         </svg>
       </button>
+    </div>
+  </div>
+</div>
+
+    <div
+  id="mobileMenu"
+  class="fixed inset-0 bg-[#1d2117] z-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out"
+>
+  <div class="container max-w-[375px] mx-auto px-4">
+    <div>
+      <nav class="">
+        <ul class="flex flex-col items-center gap-7">
+          <li>
+            <a
+              href="/"
+              class="block pt-1 pb-1 pl-3 pr-3 leading-[1.2] text-[24px] tracking-widest font-bold text-[#b4f663] border hover:bg-[#32362b] transition-colors duration-300"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#shedule"
+              class="block pt-1 pb-1 pl-3 pr-3 leading-[1.2] text-[24px] tracking-widest font-bold text-[#e1e4d4] hover:text-[#b4f663] hover:bg-[#32362b] transition-colors duration-300"
+            >
+              Schedule
+            </a>
+          </li>
+          <li>
+            <a
+              href="#speakers"
+              class="block pt-1 pb-1 pl-3 pr-3 leading-[1.2] text-[24px] tracking-widest font-bold text-[#e1e4d4] hover:text-[#b4f663] hover:bg-[#32362b] transition-colors duration-300"
+              >Speakers
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </div>
 </div>
