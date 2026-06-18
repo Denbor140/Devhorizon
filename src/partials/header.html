@@ -39,10 +39,19 @@
         </ul>
       </nav>
       <button
+        id="menuBtn"
         class="inline-flex w-[34px] h-[34px] items-center justify-center md:hidden"
       >
-        <svg class="fill-[#b4f663]" width="18" height="12">
+        <svg id="iconBurger" class="fill-[#b4f663]" width="18" height="12">
           <use href="/img/icons.svg#icon-menu"></use>
+        </svg>
+        <svg
+          id="iconCLose"
+          class="fill-[#b4f663] w-full hidden"
+          width="18"
+          height="12"
+        >
+          <use href="/img/icons.svg#icon-close"></use>
         </svg>
       </button>
     </div>
